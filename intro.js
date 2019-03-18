@@ -1,5 +1,4 @@
 function getWelcomeMsg(){
-    console.log("inside welcome message");
     return "welcome to my site!";
 }
 
@@ -14,7 +13,6 @@ function getColor(){
 }
 
 
-console.log("after inside welcome message");
 
 
 var welcome = getWelcomeMsg();
