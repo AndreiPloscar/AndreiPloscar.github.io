@@ -59,12 +59,12 @@ pages[i].style.display = 'none';
 initMenu(); 
 
 function showSkills() {
-    var skills = ['html', 'css', 'js'];
+    var skills = ['html', 'css', 'js',];
 
     var htmlSkills = skills.map(function(skill, index) {
-        return '<li>' + skill + '</li>';
+        return '<li>' + skill.toUpperCase() + '</li>';
     });
-    
+
     var ul = document.querySelector('#skills-page ul');
     console.warn(ul);
     ul.innerHTML = htmlSkills.join('');
