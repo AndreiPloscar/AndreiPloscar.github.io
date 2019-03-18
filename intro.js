@@ -56,4 +56,5 @@ pages[i].style.display = 'none';
 
 }
 
-initMenu();
+initMenu(); 
+
